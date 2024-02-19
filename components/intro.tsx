@@ -33,7 +33,7 @@ export default function Intro() {
       initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
-        <span className="font-bold">Hi, I'm Houssem Mehouachi</span>, a web
+        <span className="font-bold">Hi, I&apos;m Houssem Mehouachi</span>, a web
         developer with experience in React, TypeScript, and Next.js.
       </motion.p>
       <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium" initial={{opacity: 0 , y: 100}} animate={{opacity: 1 , y: 0}} >
