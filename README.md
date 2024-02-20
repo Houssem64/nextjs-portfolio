@@ -16,7 +16,7 @@ This is a portfolio website built using Next.js, Framer Motion, React Icons, and
 1. Clone the repository:
 
     ```
-    git clone [https://github.com/your-username/portfolio.git](https://github.com/Houssem64/nextjs-portfolio.git)
+    git clone https://github.com/Houssem64/nextjs-portfolio.git
     ```
 
 2. Navigate into the project directory:
