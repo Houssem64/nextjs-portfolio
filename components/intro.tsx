@@ -7,6 +7,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 export default function Intro() {
   return (
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
@@ -15,7 +16,7 @@ export default function Intro() {
           <motion.div
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ typee: "tween", duration: 0.5 }}
+            transition={{ type: "tween", delay: 0.2}}
           >
             <Image
               src={mypic}
@@ -29,18 +30,55 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
-      <motion.p className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl" 
-      initial={{ y: 100, opacity: 0 }}
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
+        transition={{ type: "tween", delay: 0.2}}
       >
-        <span className="font-bold">Hi, I&apos;m Houssem Mehouachi</span>, a web
-        developer with experience in React, TypeScript, and Next.js.
-      </motion.p>
-      <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium" initial={{opacity: 0 , y: 100}} animate={{opacity: 1 , y: 0}} >
-        <Link href="#contact" className=" bg-gray-900 text-white  px-7 py-3 flex items-center gap-2 rounded-full ">Contact Me <BsArrowRight /> </Link>
-        <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full ">Download CV <HiDownload /></a>
-        <a className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full "> <BsLinkedin /></a>
-        <a className="bg-white text-gray-700 p-4 text-[1rem] flex items-center gap-2 rounded-full "><FaGithub /></a>
+        <span className="font-bold">Hi, I&apos;m Houssem Mehouachi</span>, a
+        passionate web developer dedicated to turning digital dreams into
+        reality. Dive into my portfolio and let's collaborate to bring your
+        vision to vibrant life online!
+      </motion.h1>
+      <motion.div
+        className="flex flex-col sm:flex-row items-center justify-center gap-4  px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ type: "tween", delay: 0.2}}
+
+      >
+        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          {" "}
+          <Link
+            href="#contact"
+            className=" bg-gray-900 group  text-white outline-none hover:ring-1  hover:ring-[#9ddff7] hover:outline-[#9ddff7] hover:bg-gray-950  px-7 py-3 flex items-center gap-2 rounded-full "
+          >
+            Contact&nbsp;Me <FaArrowRightLong className="opacity-70 group-hover:translate-x-1 transition group-hover:text-[#9ddff7] font-bold" />{" "}
+          </Link>
+        </motion.button>
+        <motion.a
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className="bg-white outline-none group hover:ring-1   hover:ring-[#9ddff7] hover:outline-[#9ddff7] px-7 py-3 flex items-center gap-2 rounded-full cursor-pointer " href="/MehouachiHoussem.pdf" download="MehouachiHoussem.pdf" target="_blank" rel="noreferrer"
+        >
+          Download&nbsp;CV <HiDownload className="group-hover:scale-125 transition" />
+        </motion.a>
+        <a
+         
+          className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#9ddff7] hover:outline-[#9ddff7] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
+        href="https://www.linkedin.com/in/houssem-mehouachi-7681761bb/" target="_blank" rel="noreferrer"
+        >
+          {" "}
+          <BsLinkedin className="group-hover:scale-110" />
+        </a>
+        <a
+          
+          className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#9ddff7] hover:outline-[#9ddff7] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
+        href="https://github.com/Houssem64" target="_blank" rel="noreferrer"
+        >
+          <FaGithub className="group-hover:scale-125"  />
+        </a>
       </motion.div>
     </section>
   );
