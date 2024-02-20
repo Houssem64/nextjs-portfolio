@@ -38,7 +38,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I&apos;m Houssem Mehouachi</span>, a
         passionate web developer dedicated to turning digital dreams into
-        reality. Dive into my portfolio and let's collaborate to bring your
+        reality. Dive into my portfolio and let&apos;s collaborate to bring your
         vision to vibrant life online!
       </motion.h1>
       <motion.div
