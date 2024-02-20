@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+This is a portfolio website built using Next.js, Framer Motion, React Icons, and Tailwind CSS. It serves as a showcase of my work, skills, and experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Utilizes the Next.js framework for server-side rendering, routing, and optimizing the website's performance.
+- **Framer Motion**: Implements smooth animations and transitions using Framer Motion for a visually appealing user experience.
+- **React Icons**: Incorporates a wide range of icons from React Icons library for easy integration and customization.
+- **Tailwind CSS**: Provides utility-first CSS framework for quickly styling the website with pre-designed components and responsive layouts.
+- **Responsive Design**: Ensures the website is fully responsive and works seamlessly across various devices and screen sizes.
+- **Dynamic Content**: Allows easy management and updating of portfolio content through dynamic rendering of data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```
+    git clone [https://github.com/your-username/portfolio.git](https://github.com/Houssem64/nextjs-portfolio.git)
+    ```
 
-## Learn More
+2. Navigate into the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+    ```
+    cd nextjs-portfolio
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```
+    npm install
+    ```
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Start the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```
+    npm run dev
+    ```
+
+2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the website.
+
+## Customize
+
+- **Portfolio Content**: Modify the content in the `lib/data.tsx` file to update your portfolio items.
+- **Styling**: Customize styles using Tailwind CSS utility classes directly in your components or by editing the `tailwind.config.js` file.
+- **Icons**: Replace or add icons by importing them from React Icons library in the components where needed.
+- **Animations**: Adjust animations and transitions by modifying the Framer Motion properties in the components.
+
+## Deployment
+
+This project is deployed on Vercel, which provides seamless deployment for Next.js applications
+
+## Credits
+
+- **Next.js**: [https://nextjs.org/](https://nextjs.org/)
+- **Framer Motion**: [https://www.framer.com/motion/](https://www.framer.com/motion/)
+- **React Icons**: [https://react-icons.github.io/react-icons/](https://react-icons.github.io/react-icons/)
+- **Tailwind CSS**: [https://tailwindcss.com/](https://tailwindcss.com/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
