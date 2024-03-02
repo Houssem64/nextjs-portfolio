@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section id="home" className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center ">
         <div className="relative">
           <motion.div
