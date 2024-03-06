@@ -11,6 +11,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
+      
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3"></p>
       <motion.p
@@ -21,7 +22,8 @@ export default function About() {
         problem-solving, and autonomy. My expertise lies in HTML, CSS,
         JavaScript, Next.js, and React, complemented by hard skills including
         Bash Scripting, Oracle databases, and hardware troubleshooting. I hold a
-        BTS in Web Development
+        BTS in Web Development 
+        
       </motion.p>
     </motion.section>
   );

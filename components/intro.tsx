@@ -52,21 +52,21 @@ export default function Intro() {
           {" "}
           <Link
             href="#contact"
-            className=" bg-gray-900 group  text-white outline-none hover:ring-1  hover:ring-[#9ddff7] hover:outline-[#9ddff7] hover:bg-gray-950  px-7 py-3 flex items-center gap-2 rounded-full "
+            className=" bg-gray-900 group  text-white outline-none hover:ring-1  hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] hover:bg-gray-950  px-7 py-3 flex items-center gap-2 rounded-full "
           >
-            Contact&nbsp;Me <FaArrowRightLong className="opacity-70 group-hover:translate-x-1 transition group-hover:text-[#9ddff7] font-bold" />{" "}
+            Contact&nbsp;Me <FaArrowRightLong className="opacity-70 group-hover:translate-x-1 transition group-hover:text-[#FFFFFF] font-bold" />{" "}
           </Link>
         </motion.button>
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="bg-white outline-none group hover:ring-1   hover:ring-[#9ddff7] hover:outline-[#9ddff7] px-7 py-3 flex items-center gap-2 rounded-full cursor-pointer " href="/MehouachiHoussem.pdf" download="MehouachiHoussem.pdf" target="_blank" rel="noreferrer"
+          className="bg-white outline-none group hover:ring-1   hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] px-7 py-3 flex items-center gap-2 rounded-full cursor-pointer " href="/MehouachiHoussem.pdf" download="MehouachiHoussem.pdf" target="_blank" rel="noreferrer"
         >
           Download&nbsp;CV <HiDownload className="group-hover:scale-125 transition" />
         </motion.a>
         <a
          
-          className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#9ddff7] hover:outline-[#9ddff7] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
+          className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
         href="https://www.linkedin.com/in/houssem-mehouachi-7681761bb/" target="_blank" rel="noreferrer"
         >
           {" "}
@@ -74,7 +74,7 @@ export default function Intro() {
         </a>
         <a
           
-          className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#9ddff7] hover:outline-[#9ddff7] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
+          className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
         href="https://github.com/Houssem64" target="_blank" rel="noreferrer"
         >
           <FaGithub className="group-hover:scale-125"  />
