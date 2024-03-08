@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import pic1 from "@/public/1.jpg";
-import pic2 from "@/public/2.jpg";
-import pic3 from "@/public/3.jpg";
+import pic1 from "@/public/FlexFitGym.png";
+import pic2 from "@/public/Houssem-Mehouachi.png";
+
 
 export const links = [
   {
@@ -35,52 +35,62 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "web developement intern",
+    location: "Nabeul",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "1-month internship as a web developer. Involved front-end development using HTML, CSS, and JavaScript, and frameworks like React.js.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: " 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "BTS Web development",
+    location: "Nabeul",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "2 years of study focused on web development. I learned front-end and back-end development, and worked on several projects using modern technologies like React.js, Next.js, and Node.js.",
+    icon: React.createElement(LuGraduationCap),
+    date: " 2022 - 2024",
+  },
+
+
+
+  {
+    title: "It maintenance technician intern",
+    location: "Hammamet",
+    description:
+      "6-month internship as an IT maintenance technician. Involved diagnosing and solving hardware and software issues, and recovering lost data.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "It maintenance technician intern",
+    location: "El Fahs",
+    description:
+      "2-month internship as an IT maintenance technician. Involved monitoring and maintaining computer systems and networks, and resolving hardware and software issues.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021",
+  },
+  {
+    title: "BTP maintenance micro-système informatique",
+    location: "Nabeul",
+    description: "A 2-year program focused on maintaining and repairing computer systems.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - 2022",
   },
 ] as const;
-
 export const projectsData = [
   {
-    title: "Project 1 ",
+    title: "FlexFit Gym ",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "The FlexFit Gym website is a modern, responsive platform designed to showcase the services offered by FlexFit Gym, a premier fitness facility.",
+    tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
     imageUrl: pic1,
   },
   {
-    title: "Project 2",
+    title: "Portfolio website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A personal portfolio website built using modern technologies like Next.js, Framer Motion,React Icons  and Tailwind CSS. It showcases my skills, projects, and experiences.",
+    tags: ["Framer Motion", "TypeScript", "Next.js", "Tailwind",],
     imageUrl: pic2,
-  },
-  {
-    title: "Project 3",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: pic3,
   },
 ] as const;
 
@@ -89,19 +99,13 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Bootstrap",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
