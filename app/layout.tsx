@@ -28,11 +28,12 @@ export default function RootLayout({
         <div className=" absolute -top-11 h-full w-full -z-10 overflow-hidden p-0 m-0 ">
 
         </div>
-        <SpeedInsights />
-        <Analytics />
+
         <Header />
 
         {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
