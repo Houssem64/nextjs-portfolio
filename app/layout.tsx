@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
   title: "Houssem Mehouachi",
   description:
@@ -27,6 +28,8 @@ export default function RootLayout({
         <div className=" absolute -top-11 h-full w-full -z-10 overflow-hidden p-0 m-0 ">
 
         </div>
+        <SpeedInsights />
+        <Analytics />
         <Header />
 
         {children}
