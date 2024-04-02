@@ -16,7 +16,7 @@ export default function Intro() {
           <motion.div
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ type: "tween", delay: 0.2}}
+            transition={{ type: "tween", delay: 0.2 }}
           >
             <Image
               src={mypic}
@@ -34,7 +34,7 @@ export default function Intro() {
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ type: "tween", delay: 0.2}}
+        transition={{ type: "tween", delay: 0.2 }}
       >
         <span className="font-bold">Hi, I&apos;m Houssem Mehouachi</span>, a
         passionate web developer dedicated to turning digital dreams into
@@ -45,7 +45,7 @@ export default function Intro() {
         className="flex flex-col sm:flex-row items-center justify-center gap-4  px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ type: "tween", delay: 0.2}}
+        transition={{ type: "tween", delay: 0.2 }}
 
       >
         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
@@ -60,24 +60,24 @@ export default function Intro() {
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="bg-white outline-none group hover:ring-1   hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] px-7 py-3 flex items-center gap-2 rounded-full cursor-pointer " href="/MehouachiHoussem.pdf" download="MehouachiHoussem.pdf" target="_blank" rel="noreferrer"
+          className="bg-white outline-none group hover:ring-1   hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] px-7 py-3 flex items-center gap-2 rounded-full cursor-pointer " href="/MehouachiHoussem.pdf" download="HoussemMehouachi.pdf" target="_blank" rel="noreferrer"
         >
           Download&nbsp;CV <HiDownload className="group-hover:scale-125 transition" />
         </motion.a>
         <a
-         
+
           className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
-        href="https://www.linkedin.com/in/houssem-mehouachi-7681761bb/" target="_blank" rel="noreferrer"
+          href="https://www.linkedin.com/in/houssem-mehouachi-7681761bb/" target="_blank" rel="noreferrer"
         >
           {" "}
           <BsLinkedin className="group-hover:scale-110" />
         </a>
         <a
-          
+
           className="bg-white outline-none group hover:ring-1 hover:scale-110  hover:ring-[#FFFFFF] hover:outline-[#FFFFFF] hover:text-gray-950 text-gray-700 p-4 flex items-center gap-2 rounded-full "
-        href="https://github.com/Houssem64" target="_blank" rel="noreferrer"
+          href="https://github.com/Houssem64" target="_blank" rel="noreferrer"
         >
-          <FaGithub className="group-hover:scale-125"  />
+          <FaGithub className="group-hover:scale-125" />
         </a>
       </motion.div>
     </section>
