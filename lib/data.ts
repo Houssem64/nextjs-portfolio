@@ -5,7 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import pic1 from "@/public/FlexFitGym.png";
 import pic2 from "@/public/Houssem-Mehouachi.png";
 import pic3 from "../public/blog.png";
-
+import pic4 from "../public/pic4.png";
+import pic5 from "../public/pic5.png";
 
 export const links = [
   {
@@ -88,6 +89,30 @@ export const projectsData = [
     projectLink: "https://flexfit-gym.vercel.app/",
   },
   {
+    title: "Roomly ",
+    description:
+      "Roomly is a web application designed to replicate the core functionalities of Airbnb, allowing users to list, search, and book accommodations.  ",
+    tags: ["Next Auth", "Next.js", "Tailwind", "Prisma", "MongoDB"],
+    imageUrl: pic4,
+    projectLink: "#",
+  },
+  {
+    title: "BookWorm ",
+    description:
+      "Bookworm is a platform for authors to publish their books digitally and for readers to discover, purchase, and read books online.  ",
+    tags: ["Clerk", "Next.js", "Tailwind", "Mongoose", "MongoDB", "shadcn", "framer-motion", "react-icons"],
+    imageUrl: pic5,
+    projectLink: "#",
+  },
+  {
+    title: "Cipher Protocol Blog",
+    description:
+      "A blog app built using React.js, Framer Motion, Tailwind CSS, GraphQL and Hygraph CMS.  ",
+    tags: ["Framer Motion", "Next.js", "Tailwind", "GraphQL", "Hygraph CMS"],
+    imageUrl: pic3,
+    projectLink: "https://blog.houssemmehouachi.me/",
+  },
+  {
     title: "Portfolio website",
     description:
       "A personal portfolio website built using modern technologies like Next.js, Framer Motion,React Icons  and Tailwind CSS. It showcases my skills, projects, and experiences.",
@@ -95,14 +120,7 @@ export const projectsData = [
     imageUrl: pic2,
     projectLink: "https://houssemmehouachi.me/",
   },
-  {
-    title: "Cipher Protocol Blog",
-    description:
-      "A blog app built using React.js, Framer Motion, Tailwind CSS, GraphQL and Hygraph CMS.  ",
-    tags: ["Framer Motion", "React.js", "Next.js", "Tailwind", "GraphQL", "Hygraph CMS"],
-    imageUrl: pic3,
-    projectLink: "https://blog.houssemmehouachi.me/",
-  },
+
 ] as const;
 
 export const skillsData = [
