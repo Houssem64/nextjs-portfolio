@@ -4,9 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pic1 from "@/public/FlexFitGym.png";
 import pic2 from "@/public/Houssem-Mehouachi.png";
-import pic3 from "../public/blog.png";
-import pic4 from "../public/pic4.png";
-import pic5 from "../public/pic5.png";
+import pic3 from "@/public/blog.png";
+import pic4 from "@/public/pic4.png";
+import pic5 from "@/public/pic5.png";
 
 export const links = [
   {
