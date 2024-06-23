@@ -110,7 +110,7 @@ export const projectsData = [
       "A blog app built using React.js, Framer Motion, Tailwind CSS, GraphQL and Hygraph CMS.  ",
     tags: ["Framer Motion", "Next.js", "Tailwind", "GraphQL", "Hygraph CMS"],
     imageUrl: pic3,
-    projectLink: "https://blog.houssemmehouachi.me/",
+    projectLink: "https://cipherprotocol.vercel.app/",
   },
   {
     title: "Portfolio website",
@@ -118,7 +118,7 @@ export const projectsData = [
       "A personal portfolio website built using modern technologies like Next.js, Framer Motion,React Icons  and Tailwind CSS. It showcases my skills, projects, and experiences.",
     tags: ["Framer Motion", "TypeScript", "Next.js", "Tailwind",],
     imageUrl: pic2,
-    projectLink: "https://houssemmehouachi.me/",
+    projectLink: "https://houssemmehouachi.vercel.app/",
   },
 
 ] as const;
