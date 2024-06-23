@@ -18,7 +18,11 @@ export default function About() {
         whileHover={{ scale: 1.2 }} // Zooms the text to 1.2x when hovered
         style={{ cursor: "pointer" }} // Changes cursor to pointer on hover>
       >
-        I&apos;m a Web development enthusiast with a knack for turning ideas into visually stunning and interactive websites.  I love the challenge of crafting clean code and enjoy collaborating to solve complex problems.
+        Passionate fullstack developer from Tunisia with proficiency in HTML, CSS and JavaScript
+        and hands-on experience with MERN stack, Next.js and TypeScript. Skilled in
+        troubleshooting bugs, implementing effective solutions, writing clean and readable code and
+        complying to the industry&apos;s best practices . I am eager to leverage my skills and education
+        to contribute to dynamic projects and teams.
 
       </motion.p>
     </motion.section>
