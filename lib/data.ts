@@ -35,15 +35,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "web developement intern",
-    location: "DOTCOM",
-    description:
-      "1-month internship as a web developer. Involved front-end development using HTML, CSS, and JavaScript, and frameworks like React.js. ",
-    icon: React.createElement(CgWorkAlt),
-    date: " 2023",
-  },
+export const education = [
   {
     title: "BTS Web development",
     location: "IMSET",
@@ -51,6 +43,30 @@ export const experiencesData = [
       "2 years of study focused on web development. I learned front-end and back-end development, and worked on several projects using modern technologies like React.js, Next.js, and Node.js.",
     icon: React.createElement(LuGraduationCap),
     date: " 2022 - 2024",
+  }, {
+    title: "BTP maintenance micro-système informatique",
+    location: "Centre Sectoriel de formation en BTP de Nabeul",
+    description: "A 2-year program focused on maintaining and repairing computer systems.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - 2022",
+  },
+]
+export const experiencesData = [
+  {
+    title: "web developement intern",
+    location: "Teriak",
+    description:
+      "1-month internship as a web developer. Involved front-end development using HTML, CSS, and JavaScript, and frameworks like React.js. ",
+    icon: React.createElement(CgWorkAlt),
+    date: " 2024",
+  },
+  {
+    title: "web developement intern",
+    location: "DOTCOM",
+    description:
+      "1-month internship as a web developer. Involved front-end development using HTML, CSS, and JavaScript, and frameworks like React.js. ",
+    icon: React.createElement(CgWorkAlt),
+    date: " 2023",
   },
 
 
@@ -71,13 +87,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2021",
   },
-  {
-    title: "BTP maintenance micro-système informatique",
-    location: "Centre Sectoriel de formation en BTP de Nabeul",
-    description: "A 2-year program focused on maintaining and repairing computer systems.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2020 - 2022",
-  },
+
 ] as const;
 export const projectsData = [
   {
